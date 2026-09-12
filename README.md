@@ -1,46 +1,8 @@
 # Estefania Mancipe Montañez · Portafolio
 
-[Ver portafolio](https://estefaniamancipem.github.io/Portafolio-Estefania-Mancipe/)
+## Deploy
 
-Mi portafolio reúne VidaFit, Mis pendientes y Clínica veterinaria. Presento mi aporte, las tecnologías y el alcance de cada proyecto.
-
-## Tecnologías
-
-HTML, CSS y JavaScript para la landing. Java 17, Spring Boot 3.5.16 y Maven para ejecutar el servidor local, con la configuración utilizada en VidaFit.
-
-## Estructura principal
-
-```text
-index.html
-Assets/
-  Css/styles.css
-  Js/main.js
-  img/
-backend/
-  pom.xml
-  src/main/
-    java/com/generation/portafolio/PortafolioApplication.java
-    resources/application.properties
-README.md
-```
-
-## Abrir en Visual Studio Code
-
-Abre la carpeta del proyecto y ejecuta index.html con Live Server. También puedes abrir ese archivo directamente en el navegador. La landing no necesita instalar dependencias.
-
-## Ejecutar con Java
-
-Abre backend/pom.xml como proyecto Maven en IntelliJ y ejecuta PortafolioApplication. También puedes abrir una terminal en backend y ejecutar:
-
-```sh
-mvn spring-boot:run
-```
-
-Visita http://localhost:8080. El servidor entrega la misma landing; no necesita base de datos. El contacto abre el correo.
-
-## Publicación
-
-GitHub Pages publica desde la rama main y la carpeta raíz. Para actualizar el sitio, modifica los archivos de la landing, revisa el resultado y guarda los cambios en main. El backend Java se ejecuta localmente; GitHub Pages sirve HTML, CSS y JavaScript.
+[Ver portafolio publicado](https://estefaniamancipem.github.io/Portafolio-Estefania-Mancipe/)
 
 ## Proyectos
 
