@@ -1,42 +1,37 @@
-# Portafolio de Estefania Mancipe Montañez
+# Estefania Mancipe Montañez · Full Stack Junior
 
-Mi primer portafolio profesional, orientado a un puesto **Full Stack Junior**.
+[Ver portafolio publicado](https://estefaniamancipem.github.io/Portafolio-Estefania-Mancipe/)
 
-## Ver el portafolio
+Mi primer portafolio reúne tres proyectos de aprendizaje: VidaFit, un planificador de tareas y un sistema de clínica veterinaria. Explico mi aporte y el alcance real de cada uno.
 
-https://estefania-mancipe-portafolio.estefaniamancipe.chatgpt.site
+## Abrir en Visual Studio Code
 
-## Proyectos
+Abre esta carpeta completa. Requiere Node.js 22.13 o superior.
 
-1. **VidaFit**: proyecto colaborativo de comercio electrónico. Mi aporte: catálogo e ideas para el desarrollo; entrega integrada en la PR #9.
-2. **Mis pendientes**: gestión de tareas con JavaScript, TaskManager y localStorage.
-3. **Clínica veterinaria**: modelado con Java, herencia, interfaces y polimorfismo.
+```sh
+npm ci
+npm run dev
+```
 
-## Abrir en mi equipo
+La terminal indica la dirección de la vista previa. Las dependencias están instaladas en la copia local; en GitHub se conserva package-lock.json para reinstalarlas.
 
-Descarga o clona el repositorio y abre `index.html`. Conserva la hoja de estilos y las imágenes en la misma carpeta. Esta versión estática no necesita instalación de dependencias.
+## Archivos del proyecto
 
-## Archivos
+- app/page.tsx: contenido y estructura del portafolio.
+- app/globals.css: estilos y adaptación a móvil.
+- app/layout.tsx: documento y metadatos.
+- public/: fotografías, logotipo e ilustraciones.
+- components/ui/, hooks/ y lib/: componentes y utilidades del proyecto base.
+- scripts/export-static.cjs: genera la versión estática para GitHub Pages.
+- index.html, styles.css e imágenes en la raíz: versión publicada.
+- REVISION-PROYECTOS.md: revisión y límites de los proyectos mostrados.
 
-- `index.html`: contenido y estructura semántica.
-- `styles.css`: diseño responsive, estados de foco y movimiento reducido.
-- `estefania.webp`: retrato optimizado.
-- `vidafit-logo.png`: logo del proyecto original.
-- `flujo-tareas.svg` y `modelo-java.svg`: diagramas de los proyectos.
-- `icon.svg`: favicon del portafolio.
+## Actualizar la publicación
 
-La interfaz se creó con React y se exportó a HTML y CSS para que esta entrega sea fácil de abrir y alojar. El código de los proyectos enlazados permanece en sus repositorios originales.
+Edita el código y ejecuta `npm run build`. El proceso actualiza los archivos estáticos de la raíz. Guarda en GitHub el código y estos archivos; Pages publica desde la rama main, carpeta raíz. El exportador sirve para esta página de presentación sin estado interactivo.
 
-## Contacto
+Puedes abrir index.html directamente en un navegador para ver la versión estática sin instalar herramientas.
 
-- Correo: estefaniamancipe@gmail.com
-- GitHub: https://github.com/EstefaniaMancipeM
-- LinkedIn: https://www.linkedin.com/in/estefania-mancipe-76613648/
+## Alcance
 
-## Alcance actual
-
-VidaFit tiene frontend y esquema SQL; su backend integrado sigue pendiente. El planificador necesita actualizar su demo y guardar el estado al completar tareas. Clínica veterinaria es un ejercicio de consola, sin demo web. El portafolio presenta ese estado sin inventar resultados.
-
-Referencia de diseño facilitada: https://www.figma.com/design/xmvsIKl0WgVHIFQlZhcvd1/VidaFit?node-id=85-5
-
-Revisado en tamaños de móvil y escritorio. El botón de contacto abre el correo; no envía mensajes automáticamente.
+El portafolio es una página de presentación: no tiene servidor de datos, inicio de sesión ni formulario que almacene información. El enlace de contacto abre el correo. VidaFit es colaborativo; mi aporte presentado es el catálogo y las ideas para el desarrollo.
