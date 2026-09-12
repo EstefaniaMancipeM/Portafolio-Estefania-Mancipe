@@ -6,9 +6,9 @@
 
 ## Proyectos
 
-- VidaFit: proyecto colaborativo. Mi contribución al catálogo, imágenes y estilos de contacto está en la [PR #9](https://github.com/FrancoSG2003/GenerartionsCo13_VidaFit/pull/9).
-- Mis pendientes: gestión de tareas con JavaScript y almacenamiento local. La demo de esta versión está pendiente.
-- Clínica veterinaria: aplicación de consola con Java, herencia e interfaces.
+- VidaFit: proyecto colaborativo. Trabajé en el catálogo, las imágenes y los estilos de contacto. Los cambios están en la [PR #9](https://github.com/FrancoSG2003/GenerartionsCo13_VidaFit/pull/9).
+- Mis pendientes: una lista de tareas hecha con JavaScript que guarda los datos en el navegador. La demo de esta versión está pendiente.
+- Clínica veterinaria: un programa de consola hecho con clases e interfaces de Java.
 
 ## Contacto
 
